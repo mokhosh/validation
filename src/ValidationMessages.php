@@ -1,5 +1,5 @@
 <?php
-namespace Anetwork\Validation;
+namespace Mokhosh\Validation;
 
 use App;
 

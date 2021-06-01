@@ -1,7 +1,7 @@
 <?php
-namespace Anetwork\Validation;
+namespace Mokhosh\Validation;
 
-use Anetwork\Validation\ValidationMessages;
+use Mokhosh\Validation\ValidationMessages;
 
 /**
  * @author Shahrokh Niakan <sh.niakan@anetwork.ir>

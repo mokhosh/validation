@@ -1,5 +1,5 @@
 {
-    "name": "anetwork/validation",
+    "name": "mokhosh/validation",
     "license": "MIT",
     "description": "Laravel persian validation",
     "keywords": ["laravel", "validation", "persian", "farsi", "validate", "lumen", "check"],
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Anetwork\\Validation\\": "src"
+            "Mokhosh\\Validation\\": "src"
         }
     },
     "require-dev": {
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Anetwork\\Validation\\PersianValidationServiceProvider"
+                "Mokhosh\\Validation\\PersianValidationServiceProvider"
             ]
         }
     }

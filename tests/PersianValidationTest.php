@@ -1,6 +1,6 @@
 <?php
 
-use Anetwork\Validation\ValidationRules as ValidationRules;
+use Mokhosh\Validation\ValidationRules as ValidationRules;
 
 /**
  * unit test class

@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/anetwork/validation.svg?branch=master)](https://travis-ci.org/anetwork/validation)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/anetwork/validation/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/anetwork/validation/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/anetwork/validation/v/stable)](https://packagist.org/packages/anetwork/validation)
-[![Total Downloads](https://poser.pugx.org/anetwork/validation/downloads)](https://packagist.org/packages/anetwork/validation)
-[![License](https://poser.pugx.org/anetwork/validation/license)](https://github.com/anetwork/validation/blob/master/LICENSE.md)
+[![Build Status](https://travis-ci.org/mokhosh/validation.svg?branch=master)](https://travis-ci.org/mokhosh/validation)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mokhosh/validation/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mokhosh/validation/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/mokhosh/validation/v/stable)](https://packagist.org/packages/mokhosh/validation)
+[![Total Downloads](https://poser.pugx.org/mokhosh/validation/downloads)](https://packagist.org/packages/mokhosh/validation)
+[![License](https://poser.pugx.org/mokhosh/validation/license)](https://github.com/mokhosh/validation/blob/master/LICENSE.md)
 
 # Laravel Persian Validation
 
@@ -22,14 +22,14 @@ Laravel Persian Validation is open-sourced software licensed under the [MIT lice
 Via Composer
 
 ``` bash
-$ composer require Anetwork/Validation
+$ composer require Mokhosh/Validation
 ```
 
 ## Config
 
 Add the following provider to providers part of config/app.php
 ``` php
-Anetwork\Validation\PersianValidationServiceProvider::class
+Mokhosh\Validation\PersianValidationServiceProvider::class
 ```
 
 ## vendor:publish
@@ -159,7 +159,7 @@ Validator::make( $input, $rules );
 ```
 
 ## More
-Here is full list of Anetwork validation rules usage:
+Here is full list of Mokhosh validation rules usage:
 
 ``` php
 Validator::make( $request->all(), [

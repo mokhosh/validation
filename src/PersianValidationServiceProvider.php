@@ -1,6 +1,6 @@
 <?php
 
-namespace Anetwork\Validation;
+namespace Mokhosh\Validation;
 
 use Illuminate\Support\ServiceProvider;
 use Validator;
@@ -69,9 +69,9 @@ class PersianValidationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('ValidationRules', 'Anetwork\Validation\ValidationRules');
+        $this->app->bind('ValidationRules', 'Mokhosh\Validation\ValidationRules');
 
-        $this->app->bind('ValidationMessages', 'Anetwork\Validation\ValidationMessages');
+        $this->app->bind('ValidationMessages', 'Mokhosh\Validation\ValidationMessages');
 
     }
 }
