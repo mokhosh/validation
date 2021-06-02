@@ -33,6 +33,7 @@ class PersianValidationServiceProvider extends ServiceProvider
         'less'                          => 'Less',
         'iran_phone'                    => 'IranPhone',
         'iran_phone_with_area_code'     => 'IranPhoneWithAreaCode',
+        'iran_phone_or_mobile'          => 'IranPhoneOrMobile',
         'card_number'                   => 'CardNumber',
         'address'                       => 'Address',
         'iran_postal_code'              => 'IranPostalCode',

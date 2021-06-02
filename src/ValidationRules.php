@@ -406,6 +406,12 @@ class ValidationRules
         return $this->status;
     }
 
+    public function IranPhoneOrMobile($attribute, $value, $parameters, $validator)
+    {
+        return $this->IranPhoneWithAreaCode($attribute, $value, $parameters, $validator) ||
+            $this->IranMobile($attribute, $value, $parameters, $validator);
+    }
+
     /**
      * payment card number validation
      * depending on 'http://www.aliarash.com/article/creditcart/credit-debit-cart.htm' article
