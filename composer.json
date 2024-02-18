@@ -5,8 +5,8 @@
     "keywords": ["laravel", "validation", "persian", "farsi", "validate", "lumen", "check"],
     "authors": [
         {
-            "name": "Shahrokh Niakan",
-            "email": "shahrokhniakan@gmail.com"
+            "name": "Mo Khosh",
+            "email": "mskhoshnazar@gmail.com"
         }
     ],
     "autoload": {
@@ -18,7 +18,7 @@
         "phpunit/phpunit": "3.7.*"
     },
     "require": {
-        "illuminate/support": "^5.2|^6.0|^7.0|^8.0|^9.0|^10.0"
+        "illuminate/support": "^5.2|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
     },
     "extra": {
         "laravel": {
